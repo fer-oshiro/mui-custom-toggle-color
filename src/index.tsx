@@ -1,9 +1,9 @@
 import * as React from "react";
 import ReactDOM from "react-dom/client";
 import { StyledEngineProvider, ThemeProvider } from "@mui/material/styles";
-import { theme } from "./theme";
-import Demo from "./components/demo";
-import Custom from "./components/other";
+import { theme } from "./theme.ts";
+import Demo from "./components/demo.tsx";
+import Custom from "./components/other.tsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <React.StrictMode>
