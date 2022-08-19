@@ -17,7 +17,7 @@ export default function ColorToggleButton() {
       sx={{
         "& > .Mui-selected": {
           color: "red!important",
-          backgroundColor: "rgba(255,0,0,.2)!important"
+          backgroundColor: "rgba(255,0,0,.1)!important"
         }
       }}
       value={alignment}

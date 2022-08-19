@@ -1,4 +1,4 @@
-import "@mui/material/ToggleButtonGroup";
+export default ''
 
 declare module "@mui/material/styles" {
   export interface PaletteOptions {
